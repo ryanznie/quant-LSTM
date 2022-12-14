@@ -14,3 +14,6 @@
 
 
 We used 60 days of stock price data (default) to predict the price for the next day (n_input = 60, n_output = 1).
+
+### How to use:
+To run the model, type desired parameters into "modeling()". The code will create the LSTM architecture and train automatically on available data. The results will be a time series graph with predictions for the validation dataset.
